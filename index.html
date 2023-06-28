@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width", initial-scale="1.0">
+        <title>Payment Form</title>
+    </head>
+    <body>
+        <h1>payment Form</h1>
+        <p> Required fields are marked by *</p>
+        <form>
+            <fieldset>
+                <legend> contact Information</legend>
+                <label for="Mx.">Mx.</label>
+                <br>
+                <input> type="radio" name="title" id="Mx." <checked>
+                <br>
+                <label for="Mr.">Mr.</label>
+                <br>
+                <input type="radio" name="title" id="Ms.">
+                <br>
+                <label for="Mrs.">Mrs.</label>
+                <br>
+                <input type="radio" name="title" id="Mrs.">
+                <br>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" id="email" required>
+                </fieldset>
+               <fieldset>
+                <legend>Payment Infromation</legend>
+                <select id="cardType" name="cardType">
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">mastercard</option>
+                    <option value="Amerian Express">american-express</option>
+                    <option value="Discover">discover</option>
+                </select>
+                <label for=""careNumber">Credit Card Number</label>
+                <br>
+                <input type="tel" name="creditCardNumber" id="cardNumber" placeholder="xxxx xxxx xxxx xxxx" required>
+                <br>
+                <label for="expiration-date">Expiration Date</label>
+                <br>
+              <input type="text" name="expirationDate" id="experation-date" required>
+               </fieldset>
+               <input type="submit" value="submit Payment">
+        </form>
+         </body>
+         </html>
+        
